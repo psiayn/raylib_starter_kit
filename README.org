@@ -1,0 +1,20 @@
+#+title: A simple template for creating a RayLib project in C++ 20 and CMake
+#+author: Pranav Kesavarapu (psiayn)
+
+* How to get started?
+#+BEGIN_SRC bash
+git clone --recurse-submodules https://github.com/psiayn/raylib_starter_kit.git
+cd raylib_starter_kit
+mkdir build && cd build
+cmake ..
+make
+./raylib_starter_kit
+#+END_SRC
+If things have run successfully, you should get a simple game window.
+
+* Developing
+Just start writing your code in ~src/main.cpp~ and expand forth into the vast world of game dev
+
+* Sources
+- I used https://github.com/SasLuca/raylib-cpp-cmake-template as the inspiration for this repo ( I mean ripped it off and tweaked it to my liking. ).
+- Of course https://www.raylib.com/ for tutorials / examples / docs and etc.
